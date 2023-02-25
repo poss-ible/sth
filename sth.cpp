@@ -27,7 +27,7 @@ int main()
 		ifstream vs("vs.txt");
 		string vsw;
 		vs>>vsw;
-		if(vsw!="1.0.0")
+		if(vsw!="1.0.1")
 		{
 			system("start dl.exe sth.exe");
 			return 0;
